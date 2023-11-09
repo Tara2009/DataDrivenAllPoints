@@ -22,6 +22,7 @@ create contacts using excel
     TypeText                    First Name                  ${C_FirstName}
     TypeText                    Last Name                   ${C_LastName}
     ${fullName}                 Catenate                    ${C_FirstName}              ${C_LastName}
+    Log                        ${fullName}
     TypeText                    Phone                       ${C_Phone}
     ComboBox                    Search Accounts...          Dickenson plc
     TypeText                    Email                       tara@gamil.com
